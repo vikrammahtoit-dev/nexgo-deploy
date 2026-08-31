@@ -18,12 +18,7 @@ const navbarLinks = [
                             icon: "ShoppingBag",
                             path: "/solutions/domestic-shipping",
                         },
-                        {
-                            label: "International Shipping",
-                            description: "Deliver globally with confidence",
-                            icon: "ShoppingBag",
-                            path: "/solutions/international-shipping",
-                        },
+
                     ],
                 },
                 // {
