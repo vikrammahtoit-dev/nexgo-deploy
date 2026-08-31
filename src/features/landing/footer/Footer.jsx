@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import nexgoLogo from "../../../assets/logos/CompanyName.png";
-import PrivacyPolicy from "../../../pages/public/PrivacyPolicy/PrivacyPolicy";
+
 
 const MailIcon = () => (
     <svg
@@ -245,7 +245,10 @@ const Footer = () => {
                             </FooterLink>
 
                             <FooterLink>
-                                Pricing
+
+                                <Link to="/pricing">
+                                    Pricing
+                                </Link>
                             </FooterLink>
 
                             <FooterLink>

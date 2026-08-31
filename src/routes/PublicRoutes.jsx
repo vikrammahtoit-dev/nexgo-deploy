@@ -9,6 +9,7 @@ import APIGuides from "../pages/public/APIGuides/APIGuides";
 import FAQs from "../pages/public/FAQ/FAQs";
 import ShippingGuides from "../pages/public/ShippingGuides/ShippingGuides";
 import ShippingSOP from "../pages/public/ShippingSOP/ShippingSOP";
+import Pricing from "../pages/public/pricing/Pricing";
 
 const PublicRoutes = () => {
     return (
@@ -24,6 +25,7 @@ const PublicRoutes = () => {
             <Route path="/shipping-guides/:policySlug" element={<ShippingGuides />} />
 
             <Route path="/shipping-sop" element={<ShippingSOP />} />
+            <Route path="/pricing" element={<Pricing />} />
         </Routes>
     )
 };
