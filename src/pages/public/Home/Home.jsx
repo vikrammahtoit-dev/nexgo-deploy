@@ -8,6 +8,7 @@ import CourierPartner from "../../../features/landing/partners/CourierPartner";
 import LogisticsSolution from "../../../features/landing/solutions/LogisticsSolution";
 import Testimonials from "../../../features/landing/testimonial/Testimonials";
 import LiveTracking from "../../../features/landing/tracking/LiveTracking";
+import Chaos from "../../../features/landing/transformation/Chaos";
 import HowItWorks from "../../../features/landing/Working/HowItWorks";
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Navbar />
             <Hero />
             <CourierPartner />
+            <Chaos />
             <LogisticsSolution />
 
             <HowItWorks />
