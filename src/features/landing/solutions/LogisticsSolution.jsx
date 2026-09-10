@@ -250,10 +250,6 @@ const ReliableDeliveryIcon = () => (
 );
 
 
-/* ============================================================
-   SERVICE DATA
-============================================================ */
-
 const services = [
     {
 
@@ -332,62 +328,24 @@ const LogisticsSolution = () => {
                             return (
                                 <article
                                     key={service.title}
-                                    className="
-                  group
-                  relative
-                  flex
-                  min-h-[230px]
-                  flex-col
-                  rounded-2xl
-                  border
-                  border-[#DCE5F1]
-                  bg-white
-                  p-6
-                  shadow-[0_8px_24px_rgba(9,40,92,0.045)]
-                  transition
-                  duration-300
-                  hover:-translate-y-1
-                  hover:shadow-[0_14px_30px_rgba(9,40,92,0.09)]
-                "
+                                    className=" group relative flex min-h-[180px] flex-col rounded-2xl border border-[#DCE5F1] bg-white p-6 shadow-[0_8px_24px_rgba(9,40,92,0.045)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_14px_30px_rgba(9,40,92,0.09)] "
                                 >
 
                                     {/* Orange Bottom Border */}
 
                                     <div
-                                        className="
-                    absolute
-                    bottom-0
-                    left-0
-                    right-0
-                    h-[2px]
-                    rounded-b-2xl
-                    bg-[#FF6900]
-                    opacity-0
-                    transition
-                    duration-300
-                    group-hover:opacity-100
-                  "
+                                        className=" absolute bottom-0 left-0 right-0 h-[2px] rounded-b-2xl bg-[#FF6900] opacity-0 transition duration-300 group-hover:opacity-100"
                                     />
 
 
                                     {/* Top Section */}
 
-                                    <div className="flex items-start gap-5">
+                                    <div className="flex items-start gap-4 sm:gap-5">
 
                                         {/* Icon */}
 
                                         <div
-                                            className="
-                      flex
-                      h-16
-                      w-16
-                      shrink-0
-                      items-center
-                      justify-center
-                      rounded-full
-                      bg-[#EEF4FF]
-                      text-[#09285C]
-                    "
+                                            className=" flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-[#EEF4FF] text-[#09285C]"
                                         >
                                             <Icon />
                                         </div>
@@ -397,31 +355,10 @@ const LogisticsSolution = () => {
 
                                         <div className="min-w-0">
 
-                                            {/* Number */}
-
-                                            <span
-                                                className="
-                        text-xs
-                        font-bold
-                        tracking-wide
-                        text-[#FF6900]
-                      "
-                                            >
-                                                {service.number}
-                                            </span>
-
-
                                             {/* Title */}
 
                                             <h3
-                                                className="
-                        mt-2
-                        text-lg
-                        font-bold
-                        leading-tight
-                        text-[#09285C]
-                        sm:text-xl
-                      "
+                                                className=" mt-2 text-lg font-bold leading-tight text-[#09285C] sm:text-xl"
                                             >
                                                 {service.title}
                                             </h3>
@@ -430,12 +367,7 @@ const LogisticsSolution = () => {
                                             {/* Description */}
 
                                             <p
-                                                className="
-                        mt-3
-                        text-sm
-                        leading-6
-                        text-slate-600
-                      "
+                                                className=" mt-3 text-sm leading-6 text-slate-600"
                                             >
                                                 {service.description}
                                             </p>
@@ -443,40 +375,6 @@ const LogisticsSolution = () => {
                                         </div>
 
                                     </div>
-
-
-                                    {/* Learn More */}
-
-                                    {/* <button
-                                        type="button"
-                                        className="
-                    mt-auto
-                    flex
-                    items-center
-                    gap-2
-                    pt-6
-                    text-sm
-                    font-bold
-                    text-[#09285C]
-                    transition
-                    duration-200
-                    group-hover:text-[#FF6900]
-                  "
-                                    >
-                                        Learn More
-
-                                        <span
-                                            className="
-                      text-lg
-                      text-[#FF6900]
-                      transition
-                      duration-200
-                      group-hover:translate-x-1
-                    "
-                                        >
-                                            →
-                                        </span>
-                                    </button> */}
 
                                 </article>
                             );

@@ -21,79 +21,9 @@ const FloatCard = ({
     </div>
 );
 
-// const DoodleArrow = ({
-//     className = "",
-//     rotate = 0,
-//     style = {},
-// }) => {
-//     return (
-//         <svg
-//             viewBox="0 0 180 110"
-//             fill="none"
-//             xmlns="http://www.w3.org/2000/svg"
-//             className={`pointer-events-none absolute ${className}`}
-//             style={{
-//                 transform: `rotate(${rotate}deg)`,
-//                 ...style,
-//             }}
-//             aria-hidden="true"
-//         >
-//             {/* Main hand-drawn curve */}
-//             <path
-//                 d="
-//           M 18 18
-//           C 35 8, 55 10, 70 22
-//           C 91 39, 91 63, 108 73
-//           C 123 82, 142 76, 155 63
-//         "
-//                 stroke="#F47A20"
-//                 strokeWidth="3"
-//                 strokeLinecap="round"
-//                 strokeLinejoin="round"
-//             />
-
-//             {/* Small secondary stroke for the hand-drawn feel */}
-//             <path
-//                 d="
-//           M 19 21
-//           C 36 12, 54 13, 68 25
-//           C 88 42, 89 65, 106 76
-//           C 123 86, 143 79, 157 66
-//         "
-//                 stroke="#F47A20"
-//                 strokeWidth="1.2"
-//                 strokeLinecap="round"
-//                 strokeLinejoin="round"
-//                 opacity="0.45"
-//             />
-
-//             {/* Arrow head */}
-//             <path
-//                 d="
-//           M 150 56
-//           C 152 60, 155 63, 160 65
-//         "
-//                 stroke="#F47A20"
-//                 strokeWidth="3"
-//                 strokeLinecap="round"
-//             />
-
-//             <path
-//                 d="
-//           M 157 65
-//           C 154 68, 151 70, 148 73
-//         "
-//                 stroke="#F47A20"
-//                 strokeWidth="3"
-//                 strokeLinecap="round"
-//             />
-//         </svg>
-//     );
-// };
-
 const riskFactors = [
     {
-        title: "Mannual",
+        title: "Manual",
         subtitle: "Rate Check",
     },
     {
@@ -102,7 +32,7 @@ const riskFactors = [
     },
     {
         title: "No Real-time",
-        subtitle: "Visibilty",
+        subtitle: "Visibility",
     },
     {
         title: "High RTO &",
@@ -117,7 +47,7 @@ const riskFactors = [
 const BeforeNexgo = () => {
     // Heght has to focused later after completing the work.
     return (
-        <section className="relative min-h-[760px] w-full overflow-visible">
+        <section className="relative min-h-[760px] w-full overflow-visible ">
             {/* Inline Heading  */}
             <div className="absolute left-[3%] top-0 z-20">
                 {/* label */}
@@ -430,7 +360,7 @@ const TransformationCenter = () => {
             </div>
             {/* Nexgo core  */}
             <div className="absolute left-[60%] top-[405px] z-[80] flex h-[108px] w-[108px] items-center justify-center -translate-x-1/2 -translate-y-1/2">
-                <img src={Nexgo} alt="logo-name" className="h-auto object-contain w-[96px]" />
+                <img src={Nexgo} alt="Nexgo" className="h-auto object-contain w-[96px]" />
             </div>
             {/* Left Flow Chevrons */}
             <div
@@ -677,7 +607,7 @@ const WithNexgoSection = () => {
                         </div>
 
                         {/* Next part - smart routing  */}
-                        <div className="rlative  rounded-xl border border-slate-100 bg-white p-4 shadow-md ml-10 mr-10">
+                        <div className="relative  rounded-xl border border-slate-100 bg-white p-4 shadow-md ml-10 mr-10">
 
 
                             <p className="relative z-10 text-sm font-bold  text-slate-700 text-center">Smart Routing </p>
@@ -865,9 +795,9 @@ const WithNexgoSection = () => {
 
 const Chaos = () => {
     return (
-        <section className="relative w-full overflow-hidden bg-white">
+        <section className="relative hidden w-full overflow-hidden bg-white lg:block">
             {/*  Background System */}
-            <div aria-hidden="true" className="poitner-events-none absolute inset-0 z-0 overflow-hidden">
+            <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
                 <div className="absolute inset-0 bg-[#FFFFFF]" />
                 {/* Left- warm/ chaos atmosphere */}
                 <div className="absolute left-[-180px] top-[190px] h-[650px] w-[650px] rounded-full bg-[#FFE4D7] opacity-60 blur-[95px]" />
@@ -885,7 +815,7 @@ const Chaos = () => {
                 {/* Right-cool zone */}
                 <div className=" absolute -right-[190px] top-[170px] h-[680px] w-[680px] rounded-full bg-[#DDF2FF] opacity-75 blur-[95px]" />
                 <div className=" absolute right-[20px] top-[310px] h-[470px] w-[470px] rounded-full bg-[#C9EBFF] opacity-55 blur-[82px]" />
-                <div className="absolute right-[230px] top-[500px] h-[270px] w-[270px] rounded-fullbg-[#EDF9FF] opacity-95 blur-[65px]" />
+                <div className="absolute right-[230px] top-[500px] h-[270px] w-[270px] rounded-full bg-[#EDF9FF] opacity-95 blur-[65px]" />
                 {/* center-to-right blue transition */}
                 <div className=" absolute right-[24%] top-[300px] h-[440px] w-[520px] rounded-full bg-[radial-gradient(ellipse_at_center,rgba(105,191,255,0.38)_0%,rgba(170,224,255,0.22)_40%,rgba(255,255,255,0)_76%)] blur-[40px]" />
                 {/* Horizontal light transition */}
@@ -920,7 +850,7 @@ const Chaos = () => {
                 </div>
 
                 {/* Main three - Zone Composition */}
-                <div className="relative mx-auto mt-[58px] grid w-full max-[145px] grid-cols-1 gap-10 lg:grid-cols-[1fr_180px_1fr] lg:items-start lg:gap-10 xl:grid-cols-[1fr_210px_1fr]">
+                <div className="relative mx-auto mt-[58px] grid w-full grid-cols-1 gap-10 lg:grid-cols-[1fr_180px_1fr] lg:items-start lg:gap-10 xl:grid-cols-[1fr_210px_1fr]">
                     {/* Left Zone - Before Nexgo */}
                     <BeforeNexgo />
                     {/* Centre Zone - Nexgo Transformation */}
