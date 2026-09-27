@@ -17,7 +17,7 @@ const Hero = () => {
 
 
             {/* Hero Container */}
-            {/* relative mx-auto grid min-h-[650px] w-[calc(100%-32px)] max-w-[1500px] grid-cols-1 items-center  sm:w-[calc(100%-48px)] lg:grid-cols-[40%_60%] xl:w-[calc(100%-80px)] */}
+
 
             <div className="relative mx-auto grid min-h-[530px] w-[calc(100%-32px)] max-w-[1500px] grid-cols-1 items-center  sm:w-[calc(100%-48px)] lg:grid-cols-[40%_60%] xl:w-[calc(100%-80px)]">
 

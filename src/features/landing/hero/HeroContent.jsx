@@ -1,6 +1,4 @@
 import { ArrowRight, Sparkles } from "lucide-react";
-
-import HeroStats from "./HeroStats";
 import { heroFeatures } from "./hero.data";
 
 const HeroContent = () => {
@@ -100,9 +98,7 @@ const HeroContent = () => {
             </div>
 
 
-            {/* Trust Statistics */}
 
-            {/* <HeroStats /> */}
 
         </div>
     );

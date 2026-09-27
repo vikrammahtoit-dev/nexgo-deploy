@@ -1,4 +1,4 @@
-import socialSellers from "../../../assets/images/social-sellers.png"
+import socialSellers from "../../../assets/images/social-sellers.webp"
 import ecommerce from "../../../assets/images/ecommerce.png";
 import retailers from "../../../assets/images/retailers.png"
 import { Sparkles } from "lucide-react";

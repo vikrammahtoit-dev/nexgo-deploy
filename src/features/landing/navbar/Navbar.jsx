@@ -10,7 +10,7 @@ import {
     X,
 } from "lucide-react";
 
-import logo from "../../../assets/logos/Nexgo_logo.png";
+import logo from "../../../assets/logos/Nexgo_logo.webp";
 
 const navbarLinks = [
     {

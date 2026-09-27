@@ -174,7 +174,7 @@ const Footer = () => {
                         {/* Logo */}
                         <img
                             src={nexgoLogo}
-                            alt="Nexgo_logo"
+                            alt="Nexgo"
                             className="h-28 max-w-[310px] object-contain"
                         />
 
@@ -216,11 +216,6 @@ const Footer = () => {
                         </div>
 
                     </div>
-
-
-                    {/* ==================================================
-                        PLATFORM
-                    =================================================== */}
 
                     <div>
 
