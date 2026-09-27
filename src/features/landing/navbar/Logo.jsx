@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import nexgoLogo from "../../../assets/logos/Nexgo_logo.webp";
+import nexgoLogo from "../../../assets/logos/NEXGO_FinalLogo.webp";
 
 const Logo = () => {
     return (
