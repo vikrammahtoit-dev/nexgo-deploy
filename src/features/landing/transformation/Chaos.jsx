@@ -360,7 +360,7 @@ const TransformationCenter = () => {
             </div>
             {/* Nexgo core  */}
             <div className="absolute left-[60%] top-[405px] z-[80] flex h-[108px] w-[108px] items-center justify-center -translate-x-1/2 -translate-y-1/2">
-                <img src={Nexgo} alt="Nexgo" className="h-auto object-contain w-[96px]" />
+                <img src={Nexgo} alt="Nexgo" className="h-auto object-contain w-[72px]" />
             </div>
             {/* Left Flow Chevrons */}
             <div
