@@ -1,4 +1,4 @@
-user-agent : * 
-Allow : /
+User-agent: *
+Allow: /
 
-Sitemap : https://mynexgo.com/sitemap.xml
+Sitemap: https://mynexgo.com/sitemap.xml
