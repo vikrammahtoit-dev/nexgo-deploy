@@ -1,6 +1,6 @@
 import { BarChart3, Bell, Brain, Check, ChevronRight, Mail, MessageCircle, Phone, RadioTowerIcon, RotateCcw, ScanLine, Settings2, Sparkles, X } from "lucide-react";
 import Nexgo from "../../../assets/images/logo_name.png"
-import ShipmentTracking from "../../../assets/images/Delivery_route.png"
+import ShipmentTracking from "../../../assets/images/Delivery_Route.webp"
 
 
 
