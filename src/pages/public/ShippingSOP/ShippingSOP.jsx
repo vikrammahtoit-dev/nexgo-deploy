@@ -2,7 +2,7 @@ import { AlertTriangle, CalendarDays, ChartNoAxesCombined, Check, ChevronRight, 
 import Navbar from "../../../features/landing/navbar/Navbar";
 import { shippingSOPData as data, shippingSOPData } from "./ShippingSOP.data";
 import Footer from "../../../features/landing/footer/Footer";
-import SOPIllustration from "../../../assets/images/SOP-Illustration.png"
+import SOPIllustration from "../../../assets/images/SOP-Illustration.webp";
 
 const renderHighlightedText = (text) => {
     if (!text) return null;
