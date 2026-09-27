@@ -2,7 +2,9 @@ import { ArrowRight, CalendarDays, CheckCircle2, ChevronRight, ClipboardCheck, C
 import { paymentTimeline, policyProcessingNote, refundCancellationPolicy, refundRequestNote, refundSections, refundSteps } from "./RefundCancellation.data.js";
 import React, { useEffect, useRef, useState } from "react";
 import Navbar from "../../../features/landing/navbar/Navbar.jsx"
-import Footer from "../../../features/landing/footer/Footer.jsx"
+import Footer from "../../../features/landing/footer/Footer.jsx";
+import SEO from "../../../components/common/SEO/SEO";
+import seoConfig from "../../../constants/seo";
 
 const HeroArtwork = () => {
     return (
@@ -1118,6 +1120,7 @@ const OnThisPage = ({
 }
 
 const RefundCancellationPolicy = () => {
+
     const contentRef = useRef(null);
     const [activeId, setActiveId] = useState(refundSections[0]?.number ?? 1);
 
@@ -1168,6 +1171,11 @@ const RefundCancellationPolicy = () => {
 
     return (
         <main className="min-h-screen bg-white text-[#16264F]">
+            <SEO
+                title={seoConfig.refundCancellation.title}
+                description={seoConfig.refundCancellation.description}
+                canonical="/refund-policy"
+            />
             <Navbar />
             <div className="mx-auto max-w-[1220px] px-3 pb-14 pt-7 sm:px-7 lg:px-5">
                 {/* Breadcrumb */}

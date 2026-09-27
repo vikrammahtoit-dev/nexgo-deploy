@@ -10,23 +10,34 @@ import Testimonials from "../../../features/landing/testimonial/Testimonials";
 import LiveTracking from "../../../features/landing/tracking/LiveTracking";
 import Chaos from "../../../features/landing/transformation/Chaos";
 import HowItWorks from "../../../features/landing/Working/HowItWorks";
+
+import SEO from "../../../components/common/SEO/SEO";
+import seoConfig from "../../../constants/seo";
+
 const Home = () => {
     return (
         <>
+            <SEO
+                title={seoConfig.home.title}
+                description={seoConfig.home.description}
+            />
+
             <Navbar />
-            <Hero />
-            <CourierPartner />
-            <Chaos />
-            <LogisticsSolution />
 
-            <HowItWorks />
-            <LiveTracking />
-            <BusinessesWeEmpower />
-            <WhyChooseNexgo />
-            <Testimonials />
-            <FinalCTA />
+            <main>
+                <Hero />
+                <CourierPartner />
+                <Chaos />
+                <LogisticsSolution />
+                <HowItWorks />
+                <LiveTracking />
+                <BusinessesWeEmpower />
+                <WhyChooseNexgo />
+                <Testimonials />
+                <FinalCTA />
+            </main>
+
             <Footer />
-
         </>
     );
 };

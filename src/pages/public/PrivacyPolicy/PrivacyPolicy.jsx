@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../../../features/landing/navbar/Navbar";
 import Footer from "../../../features/landing/footer/Footer";
 import { privacyPolicyData } from "./PrivacyPolicy.data";
+import SEO from "../../../components/common/SEO/SEO";
+import seoConfig from "../../../constants/seo";
 
 
 
@@ -761,6 +763,11 @@ const PrivacyPolicy = () => {
         <>
             {/* Existing Navbar */}
             <Navbar />
+            <SEO
+                title={seoConfig.privacyPolicy.title}
+                description={seoConfig.privacyPolicy.description}
+                canonical="/privacy-policy"
+            />
 
             <main className="min-h-screen bg-white text-[#10275F]">
                 <div className="mx-auto max-w-[1320px] px-5 py-8 sm:px-8 lg:px-10">

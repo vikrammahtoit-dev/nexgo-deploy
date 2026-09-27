@@ -9,6 +9,8 @@ import {
 
 import Navbar from "../../../features/landing/navbar/Navbar";
 import Footer from "../../../features/landing/footer/Footer";
+import SEO from "../../../components/common/SEO/SEO";
+import seoConfig from "../../../constants/seo";
 
 import { termsConditionsData } from "./TermsCondition.data";
 
@@ -578,6 +580,11 @@ export default function TermsService() {
 
     return (
         <div className="min-h-screen bg-white text-[#102a63]">
+            <SEO
+                title={seoConfig.termsService.title}
+                description={seoConfig.termsService.description}
+                canonical="/terms-services"
+            />
             <Navbar />
 
             <main>

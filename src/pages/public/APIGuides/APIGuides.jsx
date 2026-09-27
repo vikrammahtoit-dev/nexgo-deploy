@@ -4,6 +4,9 @@ import { apiTerms } from "./APITerms";
 import ApiIllustration from "../../../assets/images/api-illustration.webp"
 import { useEffect, useRef, useState } from "react";
 import Footer from "../../../features/landing/footer/Footer";
+import SEO from "../../../components/common/SEO/SEO";
+import seoConfig from "../../../constants/seo";
+
 
 const renderHighlightedText = (text) => {
     if (!text) return null;
@@ -28,6 +31,11 @@ const APITermsHero = () => {
     const breadcrumbs = ["Home", "Shipping SOP"];
     return (
         <section className=" relative overflow-hidden bg-slate-50 ">
+            <SEO
+                title={seoConfig.apiGuides.title}
+                description={seoConfig.apiGuides.description}
+                canonical="/api-guides"
+            />
             {/* Decorative background elements  */}
             <div className="pointer-events-none absolute -right-32 -top-32 h-80 w-80  rounded-full bg-slate-200/50 blur-3xl" />
             <div className="pointer-events-none absolute -bottom-32 left-1/3 h-72 w-72  rounded-full bg-slate-100 blur-3xl" />

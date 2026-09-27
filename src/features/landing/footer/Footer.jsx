@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import nexgoLogo from "../../../assets/logos/CompanyName.png";
+import nexgoLogo from "../../../assets/images/Nexgo_Footer_Logo_White.webp";
 
 
 const MailIcon = () => (

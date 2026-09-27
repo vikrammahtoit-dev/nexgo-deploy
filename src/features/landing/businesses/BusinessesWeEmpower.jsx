@@ -1,6 +1,6 @@
 import socialSellers from "../../../assets/images/social-sellers.webp"
-import ecommerce from "../../../assets/images/ecommerce.png";
-import retailers from "../../../assets/images/retailers.png"
+import ecommerce from "../../../assets/images/ecommerce.jpg";
+import retailers from "../../../assets/images/retailers.jpg"
 import { Sparkles } from "lucide-react";
 import manufacturers from "../../../assets/images/Manufacturers.jpeg"
 
