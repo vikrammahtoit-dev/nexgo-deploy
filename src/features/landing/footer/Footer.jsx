@@ -232,7 +232,9 @@ const Footer = () => {
                         <div className="mt-5 flex flex-col gap-3">
 
                             <FooterLink>
-                                Features
+                                <Link to="/domesticshipping">
+                                    Domestics Shipping
+                                </Link>
                             </FooterLink>
 
                             <FooterLink>
@@ -381,7 +383,7 @@ const Footer = () => {
 
                             {/* Email */}
 
-                            <a
+                            {/* <a
                                 href="mailto:hello@nexgo.com"
                                 className="
                                     flex
@@ -396,12 +398,12 @@ const Footer = () => {
                                 <MailIcon />
 
                                 emailaddress
-                            </a>
+                            </a> */}
 
 
                             {/* Phone */}
 
-                            <a
+                            {/* <a
                                 href="tel:+919876543210"
                                 className="
                                     flex
@@ -417,12 +419,12 @@ const Footer = () => {
 
                                 +91 1234567890
 
-                            </a>
+                            </a> */}
 
 
                             {/* Location */}
 
-                            <div
+                            {/* <div
                                 className="
                                     flex
                                     items-start
@@ -437,7 +439,7 @@ const Footer = () => {
                                     Address ........
                                 </span>
 
-                            </div>
+                            </div> */}
 
                         </div>
 

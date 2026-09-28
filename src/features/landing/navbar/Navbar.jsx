@@ -5,8 +5,11 @@ import {
     ChevronDown,
     LifeBuoy,
     Menu,
+    Rocket,
     ShoppingBag,
+    Store,
     Truck,
+    Warehouse,
     X,
 } from "lucide-react";
 
@@ -22,13 +25,32 @@ const navbarLinks = [
                     title: "Shipping",
                     items: [
                         {
-                            label: "Domestic Shipping",
-                            description: "Simplify your online deliveries",
+                            label: "D2C & Ecommerce",
+                            description: "Simplify shipping and growing your online store.",
                             icon: "ShoppingBag",
-                            path: "/solutions/domestic-shipping",
+                            path: "/solutions/d2c-ecommerce",
                         },
+                        {
+                            label: "SMs & Startups",
+                            description: "Scale your business with simple shipping",
+                            icon: "Rocket",
+                            path: "/solutions/sme-startups",
+                        },
+                        {
+                            label: "Brands & Retailers ",
+                            description: "Simplify shipping across your sales channels.",
+                            icon: "Store",
+                            path: "solutions/ internationl-shipping",
+                        },
+                        {
+                            label: "Warehouse & Fulfilment",
+                            description: "Manage inventory, orders, and fulfilment seamlessly.",
+                            icon: "Warehouse",
+                            path: "solutions/internal-shipping",
+                        }
                     ],
                 },
+
             ],
         },
     },
@@ -39,16 +61,22 @@ const navbarLinks = [
         menu: {
             sections: [
                 {
-                    title: "Core Platform",
+                    title: "Shipping ",
                     items: [
                         {
-                            label: "Multi-courier Shipping",
+                            label: "Domestic Shipping",
                             description: "Connect with multiple courier partners",
                             icon: "Truck",
-                            path: "/platform/shipping",
+                            path: "/platform/shipping-delivery/domestic-shipping",
                         },
                         {
-                            label: "Order Management",
+                            label: "Multi-Courier Management ",
+                            description: "Track and control every shipment",
+                            icon: "Truck",
+                            path: "/platform/order-management",
+                        },
+                        {
+                            label: "Pickup Management ",
                             description: "Track and control every shipment",
                             icon: "Truck",
                             path: "/platform/order-management",
@@ -56,16 +84,16 @@ const navbarLinks = [
                     ],
                 },
                 {
-                    title: "Integrations",
+                    title: "Order & Fulfilment ",
                     items: [
                         {
-                            label: "Marketplace Connect",
+                            label: "DropShipping",
                             description: "Integrate with your eCommerce stack",
                             icon: "BookOpen",
                             path: "/platform/marketplace-connect",
                         },
                         {
-                            label: "API Access",
+                            label: "COD Management",
                             description: "Build custom workflows with API",
                             icon: "BookOpen",
                             path: "/platform/api-access",
@@ -134,6 +162,9 @@ const navbarLinks = [
 
 const iconMap = {
     ShoppingBag,
+    Rocket,
+    Store,
+    Warehouse,
     Truck,
     BookOpen,
     LifeBuoy,
