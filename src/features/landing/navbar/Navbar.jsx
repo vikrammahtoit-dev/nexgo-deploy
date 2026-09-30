@@ -3,8 +3,10 @@ import { useEffect, useRef, useState } from "react";
 import {
     BookOpen,
     ChevronDown,
+    HelpCircle,
     LifeBuoy,
     Menu,
+    MessageCircle,
     Rocket,
     ShoppingBag,
     Store,
@@ -42,12 +44,7 @@ const navbarLinks = [
                             icon: "Store",
                             path: "solutions/ internationl-shipping",
                         },
-                        {
-                            label: "Warehouse & Fulfilment",
-                            description: "Manage inventory, orders, and fulfilment seamlessly.",
-                            icon: "Warehouse",
-                            path: "solutions/internal-shipping",
-                        }
+
                     ],
                 },
 
@@ -56,12 +53,12 @@ const navbarLinks = [
     },
 
     {
-        label: "Platform",
+        label: "Services",
         dropdown: true,
         menu: {
             sections: [
                 {
-                    title: "Shipping ",
+                    title: "",
                     items: [
                         {
                             label: "Domestic Shipping",
@@ -98,6 +95,12 @@ const navbarLinks = [
                             icon: "BookOpen",
                             path: "/platform/api-access",
                         },
+                        {
+                            label: "Warehouse & Fulfilment",
+                            description: "Manage inventory, orders, and fulfilment seamlessly.",
+                            icon: "Warehouse",
+                            path: "solutions/internal-shipping",
+                        }
                     ],
                 },
             ],
@@ -144,14 +147,14 @@ const navbarLinks = [
                         {
                             label: "FAQ",
                             description: "Find answers and setup guides",
-                            icon: "LifeBuoy",
+                            icon: "HelpCircle",
                             path: "/faqs",
                         },
                         {
                             label: "Contact Us",
                             description: "Talk to our logistics experts",
-                            icon: "LifeBuoy",
-                            path: "/resources/contact",
+                            icon: "MessageCircle",
+                            path: "resources/contact-us",
                         },
                     ],
                 },
@@ -166,6 +169,8 @@ const iconMap = {
     Store,
     Warehouse,
     Truck,
+    MessageCircle,
+    HelpCircle,
     BookOpen,
     LifeBuoy,
 };

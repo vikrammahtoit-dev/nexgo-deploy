@@ -383,8 +383,8 @@ const Footer = () => {
 
                             {/* Email */}
 
-                            {/* <a
-                                href="mailto:hello@nexgo.com"
+                            <a
+                                href="mailto:support@mynexgo.com"
                                 className="
                                     flex
                                     items-center
@@ -397,8 +397,8 @@ const Footer = () => {
                             >
                                 <MailIcon />
 
-                                emailaddress
-                            </a> */}
+                                support@mynexgo.com
+                            </a>
 
 
                             {/* Phone */}
@@ -424,7 +424,7 @@ const Footer = () => {
 
                             {/* Location */}
 
-                            {/* <div
+                            <div
                                 className="
                                     flex
                                     items-start
@@ -436,10 +436,12 @@ const Footer = () => {
                                 <LocationIcon />
 
                                 <span>
-                                    Address ........
+                                    Corporate Office Address:
+                                    <br />
+                                    Sector-63, Noida-201301
                                 </span>
 
-                            </div> */}
+                            </div>
 
                         </div>
 

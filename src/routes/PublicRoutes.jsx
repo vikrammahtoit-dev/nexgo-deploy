@@ -14,6 +14,7 @@ import Tracking from "../pages/public/Tracking/Tracking";
 
 import solutionRoutes from "./SolutionsRoutes";
 import platformRoutes from "./PlatformRoutes";
+import resourcesRoutes from "./ResourcesRoutes";
 
 const PublicRoutes = () => {
     return (
@@ -46,6 +47,15 @@ const PublicRoutes = () => {
 
             {/* Platform */}
             {platformRoutes.map((route) => (
+                <Route
+                    key={route.path}
+                    path={route.path}
+                    element={route.element}
+                />
+            ))}
+
+            {/* resources */}
+            {resourcesRoutes.map((route) => (
                 <Route
                     key={route.path}
                     path={route.path}
