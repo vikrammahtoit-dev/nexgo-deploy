@@ -7,12 +7,15 @@ import {
     LifeBuoy,
     Menu,
     MessageCircle,
+    PackageOpen,
     Rocket,
     ShoppingBag,
     Store,
     Truck,
+    Users,
     Warehouse,
     X,
+    Zap,
 } from "lucide-react";
 
 import logo from "../../../assets/logos/NEXGO_FinalLogo.webp";
@@ -33,17 +36,23 @@ const navbarLinks = [
                             path: "/solutions/d2c-ecommerce",
                         },
                         {
-                            label: "SMs & Startups",
+                            label: "SMEs & Startups",
                             description: "Scale your business with simple shipping",
                             icon: "Rocket",
-                            path: "/solutions/sme-startups",
+                            path: "/solutions/smes-startups",
                         },
                         {
                             label: "Brands & Retailers ",
                             description: "Simplify shipping across your sales channels.",
                             icon: "Store",
-                            path: "solutions/ internationl-shipping",
+                            path: "/solutions/brands-retailers",
                         },
+                        {
+                            label: "Social Media Sellers",
+                            description: "",
+                            icon: "",
+                            path: "",
+                        }
 
                     ],
                 },
@@ -58,26 +67,39 @@ const navbarLinks = [
         menu: {
             sections: [
                 {
-                    title: "",
+                    title: "Service",
                     items: [
                         {
                             label: "Domestic Shipping",
-                            description: "Connect with multiple courier partners",
+                            description: "Ship orders reliably across India.",
                             icon: "Truck",
                             path: "/platform/shipping-delivery/domestic-shipping",
                         },
                         {
-                            label: "Multi-Courier Management ",
-                            description: "Track and control every shipment",
-                            icon: "Truck",
-                            path: "/platform/order-management",
+                            label: "Same Day Delivery",
+                            description: "Deliver faster with Same & Next Day Delivery.",
+                            icon: "Zap",
+                            path: "/platform/shipping-delivery/sdd"
+                        },
+
+                        {
+                            label: "Next Day Delivery",
+                            description: "Deliver faster with  Next Day Delivery.",
+                            icon: "Zap",
+                            path: "/platform/shipping-delivery/ndd"
                         },
                         {
-                            label: "Pickup Management ",
-                            description: "Track and control every shipment",
-                            icon: "Truck",
-                            path: "/platform/order-management",
+                            label: "Dark Stores ",
+                            description: "Fulfill orders closer to your customers.",
+                            icon: "Store",
+                            path: "",
                         },
+                        {
+                            label: "Delivery Buddies",
+                            description: "Simplify local and last-mile deliveries.",
+                            icon: "Users",
+                            path: "",
+                        }
                     ],
                 },
                 {
@@ -85,21 +107,15 @@ const navbarLinks = [
                     items: [
                         {
                             label: "DropShipping",
-                            description: "Integrate with your eCommerce stack",
-                            icon: "BookOpen",
-                            path: "/platform/marketplace-connect",
+                            description: "Fulfil orders without holding inventory.",
+                            icon: "PackageOpen",
+                            path: "",
                         },
                         {
-                            label: "COD Management",
-                            description: "Build custom workflows with API",
-                            icon: "BookOpen",
-                            path: "/platform/api-access",
-                        },
-                        {
-                            label: "Warehouse & Fulfilment",
+                            label: "Warehousing",
                             description: "Manage inventory, orders, and fulfilment seamlessly.",
                             icon: "Warehouse",
-                            path: "solutions/internal-shipping",
+                            path: "platform/shipping-delivery/warehousing",
                         }
                     ],
                 },
@@ -154,7 +170,7 @@ const navbarLinks = [
                             label: "Contact Us",
                             description: "Talk to our logistics experts",
                             icon: "MessageCircle",
-                            path: "resources/contact-us",
+                            path: "/resources/contact-us",
                         },
                     ],
                 },
@@ -173,6 +189,9 @@ const iconMap = {
     HelpCircle,
     BookOpen,
     LifeBuoy,
+    Zap,
+    Users,
+    PackageOpen,
 };
 
 const Navbar = () => {
@@ -323,8 +342,8 @@ const Navbar = () => {
 
     const dropdownWidth =
         activeSections.length === 1
-            ? "w-[360px]"
-            : "w-[560px]";
+            ? "w-[460px]"
+            : "w-[760px]";
 
     const dropdownGrid =
         activeSections.length === 1

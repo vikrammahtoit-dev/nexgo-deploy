@@ -1,3 +1,4 @@
+import BrandsRetailers from "../pages/public/solutions/BrandsRetailers";
 import D2CEcommerce from "../pages/public/solutions/D2CEcommerce";
 import SMEsStartups from "../pages/public/solutions/SMEsStartups";
 // import BrandsRetailers from "../pages/public/solutions/";
@@ -12,10 +13,10 @@ const solutionRoutes = [
         path: "solutions/smes-startups",
         element: <SMEsStartups />,
     },
-    // {
-    //     path: "solutions/brands-retailers",
-    //     element: <BrandsRetailers />,
-    // },
+    {
+        path: "solutions/brands-retailers",
+        element: <BrandsRetailers />,
+    },
     // {
     //     path: "solutions/warehouse-fulfilment",
     //     element: <WarehouseFulfilment />,

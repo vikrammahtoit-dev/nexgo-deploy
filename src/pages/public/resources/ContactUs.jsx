@@ -22,7 +22,7 @@ const CONTACT_INFO = {
 
     // map address must change
     directionsUrl:
-        "https://www.google.com/maps/dir/?api=1&destination=416%2C%20Phase%20III%2C%20Udyog%20Vihar%2C%20Sector%2020%2C%20Gurugram%2C%20Haryana%20122008",
+        "",
 };
 
 

@@ -5,7 +5,7 @@ import delhivery from "../../../assets/logos/delhivery.png";
 import dhl from "../../../assets/logos/dhl.svg";
 import dtdc from "../../../assets/logos/dtdc.png";
 import ekart from "../../../assets/logos/ekart.svg";
-import indianPost from "../../../assets/logos/indianpost.svg";
+import indianPost from "../../../assets/logos/indianpost.webp";
 import porter from "../../../assets/logos/porter.png";
 import shadowfox from "../../../assets/logos/fedex.png";
 import shriMaruti from "../../../assets/logos/shri_maruti.png";
