@@ -2,23 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import {
-    ArrowRight,
-    Play,
-    Truck,
-    IndianRupee,
-    MapPin,
-    ShieldCheck,
-    MessageCircle,
-    CheckCircle2,
-    Share2,
-    Menu,
-    X,
-    Bell,
-    CloudUpload,
-    Package,
-    Percent,
-    Star,
-    ArrowLeft,
+    ArrowRight, Truck, IndianRupee, MapPin, ShieldCheck, MessageCircle, CheckCircle2, Share2, Bell, CloudUpload, Package, Percent, Star, ArrowLeft,
 } from "lucide-react";
 import Navbar from "../../../features/landing/navbar/Navbar";
 import blueDartLogo from "../../../assets/logos/bluedart.svg";
@@ -34,6 +18,9 @@ import shriMarutiLogo from "../../../assets/logos/shri_maruti.png";
 import xpressbeesLogo from "../../../assets/logos/xpressbees.svg";
 import gatiLogo from "../../../assets/logos/gati.svg";
 import Footer from "../../../features/landing/footer/Footer";
+import small_business from "../../../assets/SDD-NDD/same Day_image.webp";
+import instagram from "../../../assets/logos/Instagram_logo_2022.svg";
+import facebook from "../../../assets/logos/2023_Facebook_icon.svg";
 import { Link } from "react-router-dom";
 
 const brand = {
@@ -565,7 +552,7 @@ function SocialMediaSeller() {
                             }}
                         >
                             <img
-                                src="/src/assets/SDD-NDD/same Day_image.webp"
+                                src={small_business}
                                 alt="Small business owner managing orders and packing shipments"
                                 fetchPriority="high"
                                 className="h-full w-full object-cover object-center"
@@ -593,7 +580,7 @@ function SocialMediaSeller() {
                         <div className="absolute left-[5%] top-[20%] z-20 flex flex-col items-center gap-2 sm:left-[7%] sm:top-[20%] lg:left-[4%] lg:top-[20%] lg:flex-row lg:flex-wrap lg:gap-2">
                             {[
                                 {
-                                    image: "/src/assets/logos/Instagram_logo_2022.svg",
+                                    image: instagram,
                                     color: "#E1306C",
                                     delay: 0.1,
                                 },
@@ -603,7 +590,7 @@ function SocialMediaSeller() {
                                     delay: 0.25,
                                 },
                                 {
-                                    image: "/src/assets/logos/2023_Facebook_icon.svg",
+                                    image: facebook,
                                     color: "#1877F2",
                                     delay: 0.4,
                                 },
