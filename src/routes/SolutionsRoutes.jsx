@@ -1,6 +1,7 @@
 import BrandsRetailers from "../pages/public/solutions/BrandsRetailers";
 import D2CEcommerce from "../pages/public/solutions/D2CEcommerce";
 import SMEsStartups from "../pages/public/solutions/SMEsStartups";
+import SocialMediaSeller from "../pages/public/solutions/SocilaMediaSeller";
 // import BrandsRetailers from "../pages/public/solutions/";
 // import WarehouseFulfilment from "../pages/public/solutions/WarehouseFulfilment";
 
@@ -17,6 +18,13 @@ const solutionRoutes = [
         path: "solutions/brands-retailers",
         element: <BrandsRetailers />,
     },
+    {
+        path: "solutions/social-media",
+        element: <SocialMediaSeller />,
+    },
+
+
+
     // {
     //     path: "solutions/warehouse-fulfilment",
     //     element: <WarehouseFulfilment />,

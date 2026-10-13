@@ -5,11 +5,14 @@ import {
     ChevronDown,
     HelpCircle,
     LifeBuoy,
+    Megaphone,
     Menu,
     MessageCircle,
     PackageOpen,
     Rocket,
+    Share2,
     ShoppingBag,
+    Smartphone,
     Store,
     Truck,
     Users,
@@ -49,9 +52,9 @@ const navbarLinks = [
                         },
                         {
                             label: "Social Media Sellers",
-                            description: "",
-                            icon: "",
-                            path: "",
+                            description: "Sell effortlessly through social media with seamless shipping.",
+                            icon: "Smartphone",
+                            path: "solutions/social-media",
                         }
 
                     ],
@@ -192,6 +195,7 @@ const iconMap = {
     Zap,
     Users,
     PackageOpen,
+    Smartphone
 };
 
 const Navbar = () => {

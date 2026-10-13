@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, ArrowRight, Play, Route, PackageCheck, RotateCcw, Boxes, Code2, RefreshCcw, ClipboardList, FileCheck2, LoaderCircle, MailCheck, Truck, Package, UserRound, Store, CircleCheck, TrendingUp, Eye, Settings2, ArrowUpRight, Star, } from "lucide-react";
 import hero_brandsRetailer from "../../../assets/images/hero_retail_brand_package.webp";
-import Nexgi_icon from "../../../../public/favicon.webp";
+import Nexgi_icon from "../../../assets/logos/favicon.webp";
 import bulk_order from "../../../assets/images/bulk_order_fulfillment.webp";
 import Delhivery from "../../../assets/logos/delhivery.png";
 import Blitz from "../../../assets/logos/blitz.svg";
